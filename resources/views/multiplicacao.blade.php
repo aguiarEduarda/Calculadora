@@ -33,7 +33,7 @@
             </div> 
 
               <div class="row">
-                <form method="POST" action="{{ route('somar') }}">
+                <form method="POST" action="{{ route('multiplicar') }}">
                     @csrf
                     <div class="mb-3">
                       <label for="primeiroValor" class="form-label">Primeiro valor</label>
@@ -43,7 +43,7 @@
                         <label for="segundoValor" class="form-label">Segundo valor</label>
                         <input type="number" style="background-color: rgb(47, 46, 46)" class="form-control" id="segundoValor" name="valor2">
                       </div>                   
-                    <button type="submit" class="btn btn-primary">Somar</button>
+                    <button type="submit" class="btn btn-primary">Multiplicar</button>
                   </form>
             </div>
             </div>   
