@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/soma', '\App\Http\Controller\CalculadoraController@soma');
+Route::get('/soma', 'App\Http\Controllers\CalculadoraController@soma');
