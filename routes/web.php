@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('public', function () {
+    return view('welcome');
+});
+
 Route::get ('/soma', '\App\Http\Controllers\CalculadoraController@soma');
 Route::get ('/soma', '\App\Http\Controllers\CalculadoraController@soma')->name('carregarSoma');
 
