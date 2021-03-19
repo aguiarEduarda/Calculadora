@@ -111,6 +111,16 @@
             font-size: 25px;
             color: black;   
         }
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: rgb(207, 235, 225);
+            color: black;
+            width: 100%;
+            height: 100px;    
+            text-align: center;
+            line-height: 100px;
+        }
     </style>  
 
 </head>
@@ -132,11 +142,8 @@
             <span class="title">Calculadora Funcional</span>
             <p class="subtitle">É funcional, soma, divide, subtrai e multiplica.</p>
         </div> 
-
-       {{-- Formulário --}}
-       {{-- <div class="row mt-2">
-           Todos os direitos reservados ao criador. 
-           Maria Eduarda Nascimento Aguiar.
-       </div>--}}
+        <footer>
+            Todos os direitos reservados à Maria Eduarda Nascimento Aguiar.
+        </footer>
 </body>
 </html> 

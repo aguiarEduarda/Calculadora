@@ -50,6 +50,16 @@
             background-color: rgb(132, 236, 200);
             color: rgb(26, 25, 25);
         }
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: rgb(198, 229, 231);
+            color: black;
+            width: 100%;
+            height: 100px;    
+            text-align: center;
+            line-height: 100px;
+        }
     </style>   
 
 </head>
@@ -87,11 +97,9 @@
                   </form>
             </div>
             </div>   
-
-        {{-- Formulário --}}
-        <div class="row mt-2">
-            Rodapé da págna 
-        </div>
+            <footer>
+                Todos os direitos reservados à Maria Eduarda Nascimento Aguiar.
+            </footer>
     </div>
 </body>
 </html>

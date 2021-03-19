@@ -111,6 +111,16 @@
             color: rgb(228, 29, 29);  
             font-weight: bold; 
         }
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: rgb(207, 235, 225);
+            color: black;
+            width: 100%;
+            height: 100px;    
+            text-align: center;
+            line-height: 100px;
+        }
     </style>  
 
 </head>
@@ -132,8 +142,8 @@
             <span class="title">O resultado é:</span>
             <p class="subtitle">{{$resultado}}</p>
         </div> 
-        <div class="row mt-2">
-           Rodapé da págna 
-        </div>
+        <footer>
+            Todos os direitos reservados à Maria Eduarda Nascimento Aguiar.
+        </footer>
 </body>
 </html> 
